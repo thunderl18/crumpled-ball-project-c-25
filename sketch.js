@@ -20,9 +20,12 @@ function setup() {
 	dustbinObj=new dustbin(1200,650);
     paper= new Paper(500,500)
 	Engine.run(engine);
-  
+    
+	function keyPressed() {
+		Matter.body.applyForce(paperObject.body.position,(x:130,y:-145);
+	}
 }
-
+ 
 
 function draw() {
   rectMode(CENTER);
